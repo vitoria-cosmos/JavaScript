@@ -1,7 +1,20 @@
-let nome = 'Vitoria';
-let idade = 18;
+// let
+// let nome = 'Vitoria';
+// console.log(nome)
 
-console.log(nome);
-console.log(idade);
+// nome = 'Pedro';
+// console.log(nome)
 
-let teste = 'Boniek'; let genero = 'Masculino';
+// var
+// var nome = "Vitoria";
+// console.log(nome)
+
+// nome = "João"
+// console.log(nome)
+
+// const
+const nome = 'Boniek';
+console.log(nome)
+
+nome = 'João'
+console.log(nome)
