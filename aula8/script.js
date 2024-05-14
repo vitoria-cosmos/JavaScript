@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // let
 // let nome = 'Vitoria';
 // console.log(nome)
@@ -19,7 +18,6 @@ console.log(nome)
 
 nome = 'João'
 console.log(nome)
-=======
 
 // Operações com number 
 // let x = 2;
@@ -59,4 +57,3 @@ let numero = '10';
 let numero2 = 10;
 
 
->>>>>>> 169fd23a094da9d225ef62737a5a782d12abd6cd
