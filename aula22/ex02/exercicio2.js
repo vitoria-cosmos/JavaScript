@@ -11,9 +11,10 @@ Calcule o preço do imóvel
 
 function calcularImovel(metro, aposentos) {
     let m2 = 3.000;
-    let valorTot;
+    let valorTot = 0;
     switch (aposentos) {
         case 1:
+        default:
             m2 = m2;
             valorTot = m2 * metro;
             break;
@@ -30,6 +31,6 @@ function calcularImovel(metro, aposentos) {
 }
 
 let metragem = 123;
-let quartos = 3;
+let quartos = 2;
 let preco = calcularImovel(metragem, quartos);
-console.log(`A casa custa R$ ${preco}`);
+console.log(`A casa custa R$ ${preco.toFixed(2)}`);
